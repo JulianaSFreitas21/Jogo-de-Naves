@@ -7,8 +7,10 @@
   <title>Resgate</title>
 
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="js/jquery-collision.min.js" defer></script>
+
+  
   <script type="text/javascript" src="js/jquery-1.11.1.min.js" defer></script>
+  <script type="text/javascript" src="js/jquery-collision.min.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 
@@ -25,5 +27,20 @@
       </div> <!-- Fim da div inicio !-->
     </div> <!-- Fim da div fundoGame !-->
   </div> <!-- Fim da div container !-->
+  <div class="descricao">
+      <h4>Como jogar ?</h4>
+      <p>
+        Você tem que resgatar seus companheiros, porém há inimigos que querem matar seus campanheiros. Sua função é impedir que os matem e destruir os transportes dos inimigos! <br>
+        Resgate e faça a maior quantidade de pontos que puder!
+      </p>
+      <h5>Atenção! O nível de dificuldade aumenta conforme mais transportes dos inimigos você destruir e nas colisões você perde energia, caso ela zere, você perderá.</h5>
+  </div>
+  <!-- Sons do jogo !-->
+  <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+  <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+  <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+  <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+  <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+  <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
 </body>
 </html>
